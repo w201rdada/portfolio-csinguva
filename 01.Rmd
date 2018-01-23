@@ -1,8 +1,8 @@
-# My first cool idea 
+# AgriBots: Machine learning based ChatBots for Indian farmers   
 
-#### Keywords {-}
+#### Keywords: Agriculture, Machine Learning, Chatbot
 
-AgriBots: Machine learning based ChatBots for Indian farmers   
+
 
 ## A beginning.
 Farmers in Indian markets have low exposure to best practices on improving farming yield and crop life cycle management. The Government is utilizing technology to train farmers using call centers to answer questions & alerts on advisories. Close to 140 million farmers in India currently don't have access to training programs and schemes run by the Government. To complicate the problem further, Indian farmers speak 122 different languages, grow different crops across various land profiles. Even though, Indian farmers are gaining access to cheaper smartphones and internet data, the Government isn't even able to cover less than 1% of the farmer population with their current initiatives. Currently, the call centers get 500,000 calls a day and need for human resources, language competencies and farming expertise are limiting the scale of program success and rollout to larger percentage of farmers. 

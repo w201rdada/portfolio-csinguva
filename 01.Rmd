@@ -8,13 +8,13 @@ Farmers in Indian markets have low exposure to best practices on improving farmi
 ## Proposed Solution
 To solve this problem, we plan to develop intelligent chatbots which can take SMS questions from farmers in natural language and reply with real-time information reliably without manual intervention. In cases where the bot cannot understand the query, a human being will intervene and provide a feedback loop to the chatbot. This real-time feedback loop will be crowdsourced to improve the capabilities of the chatbot making it an evolving system improving farmer welfare. The basic components needed to build this system are:
 
-###### a) SMS's translation engine:
+#### a) SMS's translation engine:
 The purpose of this component is to translate the questions posted by farmers into English and translate the answers from English to the local language. 
-###### b) Farmer Database: 
+#### b) Farmer Database: 
 Used to store information on farmers, phone numbers, location, crops. The information of individual farmers will be private and only aggregate information at city/county level will be shared to monitor trends. 
-###### c) Q&A Engine: 
+#### c) Q&A Engine: 
 This will be used to identify if a question asked by farmer can be intelligently answered without ambiguity based on text mining the training data available. Also used to store information on most asked query types and available API's to retrieve information on the query types. Example: Weather data which can be retrieved on a real-time basis from publicly available API's.  
-###### d) Feedback Engine: 
+#### d) Feedback Engine: 
 When a question cannot be answered without ambiguity, the chatbot stages this question for manual intervention for feedback to improve the training data and effectiveness of Q&A engine.
 
 ## Outcomes

@@ -8,7 +8,7 @@ Farmers in Indian markets have low exposure to best practices on improving farmi
 ## Proposed Solution
 To solve this problem, we plan to develop intelligent chatbots which can take SMS or voice questions from farmers in natural language and reply with real-time information reliably without manual intervention. The product/market segments are broken down as follows: 
 
-![Screenshot](portfolio-csinguva/img/Banners_and_Alerts_and_AgriTech.png)
+![alt text](https://github.com/w201rdada/portfolio-csinguva/blob/master/img/Banners_and_Alerts_and_AgriTech.png)
 
 
 In cases where the bot cannot understand the query, a human being will intervene and provide a feedback loop to the chatbot. This real-time feedback loop will be crowdsourced to improve the capabilities of the chatbot making it an evolving system improving farmer welfare. The basic components needed to build this system are:

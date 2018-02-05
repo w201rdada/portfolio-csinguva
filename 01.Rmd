@@ -20,7 +20,7 @@ The purpose of this component is to translate the questions posted by farmers in
 Use to support farmers who are illiterate and can only speak in local language. This component takes voice input, translate it to English or local language and using automatic voice updates, provides feedback to the farmers. 
 
 #### c) Farmer Database: 
-Used to store information on farmers, phone numbers, location, crops. The information of individual farmers will be private and only aggregate information at city/county level will be shared to monitor trends. 
+Every farmer will use their phone number to register to the application. As they provide ask questions, we will use the information to build the farmer profile (phone numbers, location, crops). The information of individual farmers will be private and only aggregate information at city/county level will be shared to monitor trends. 
 
 #### d) Q&A Engine: 
 This will be used to identify if a question asked by farmer can be intelligently answered without ambiguity based on text mining the training data available. Also used to store information on most asked query types and available API's to retrieve information on the query types. Example: Weather data which can be retrieved on a real-time basis from publicly available API's.  
@@ -32,9 +32,6 @@ The effectiveness of Agribot as well as feedback on new questions can be improve
 
 #### g) Agribot Effectiveness: 
 In addition to unsupervised learning on the datasets, the Agribot should also request feedback from farmers to improve & validate precision and accuracy. Need to develop feature sets to include this workflow into the feedback engine. 
-
-
-
 
 
 ## Outcomes

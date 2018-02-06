@@ -4,14 +4,17 @@ author: "Oski Bear"
 date: "MIDS Fall 2017"
 site: bookdown::bookdown_site
 documentclass: book
+bibliography: references.bib
+link-citations: yes
+biblio-style: apalike
 ---
 
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
 readLines('https://www.zotero.org/api/users/4689563/items/top?limit=25&format=bibtex&key=0mdVMbEq6Bt2wGxnTuIISY3I&v=1')%>% writeLines('references.bib')
-```
 
+```
 
 # Welcome! {-}
 
@@ -22,7 +25,7 @@ knitr::include_graphics('img/hello-world.png')
 
 Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
 
-<!-- Below this line is just df examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
+<!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
 ```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
 knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')

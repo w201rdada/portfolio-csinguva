@@ -1,6 +1,6 @@
 # AgriBots: {#ML for farmers}   
 
-#### Keywords: Agriculture, Machine Learning, Chatbot
+#### Keywords: Agriculture, Machine Learning, Chatbot{-}
 
 ## Problem Overview
 Farmers in Indian markets have low exposure to best practices on improving farming yield and crop lifecycle management. Indian Government is helping farmers using call centers to answer questions & alerts on advisories. Close to 140 million farmers in India currently don't have access to  the schemes run by the Government[@noauthor_agricultural_nodate]. To complicate the problem further, Indian farmers speak 122 different languages, grow different crops across various land profiles. Even though Indian farmers are gaining access to cheaper smartphones and internet data, the Government isn't even able to cover less than 1% of the farmer population with their current initiatives. Need for large human resources, language competencies and farming expertise are limiting the scale of program success to a larger percentage of farmers. 

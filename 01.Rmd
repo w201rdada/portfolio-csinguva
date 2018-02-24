@@ -11,25 +11,25 @@ To solve this problem, we plan to develop intelligent chatbots which can take SM
 ![ML Complexity vs. Farmer Segments ](img/Banners_and_Alerts_and_AgriTech.png)
 In cases where the bot cannot understand the query, a human being will intervene and provide a feedback loop to the chatbot. This real-time feedback loop will be crowdsourced to improve the capabilities of the chatbot making it an evolving system improving farmer welfare. The basic components needed to build this system are:
 
-#### a) SMS's translation engine:
+#### a) SMS's translation engine:{-}
 The purpose of this component is to translate the questions posted by farmers into English and translate the answers from English to the local language. 
 
-#### b) Speech Recognition:
+#### b) Speech Recognition:{-}
 Use to support farmers who are illiterate and can only speak in local language. This component takes voice input, translate it to English or local language and using automatic voice updates, provides feedback to the farmers. 
 
-#### c) Farmer Database: 
+#### c) Farmer Database: {-}
 Every farmer will use their phone number to register to the application. As they provide ask questions, we will use the information to build the farmer profile (phone numbers, location, crops). The information of individual farmers will be private and only aggregate information at city/county level will be shared to monitor trends. 
 
-#### d) Q&A Engine: 
+#### d) Q&A Engine: {-}
 This will be used to identify if a question asked by farmer can be intelligently answered without ambiguity based on text mining the training data available. Also used to store information on most asked query types and available API's to retrieve information on the query types. Example: Weather data which can be retrieved on a real-time basis from publicly available API's.  
 
-#### e) Feedback Engine - New Questions: 
+#### e) Feedback Engine - New Questions: {-}
 When a question cannot be answered without ambiguity, the chatbot stages this question for manual intervention for feedback to improve the training data and effectiveness of Q&A engine. 
 
-#### f) Learning by Leveraging the Crowd:
+#### f) Learning by Leveraging the Crowd:{-}
 The effectiveness of Agribot as well as feedback on new questions can be improved by crowdsourcing the issues and taking feedback from NGO's, Government entities, agri experts and farmer cooperatives & societies. The flow to capture this should be automated as well based on incidence of an issue type and significance to existing user base. 
 
-#### g) Agribot Effectiveness: 
+#### g) Agribot Effectiveness: {-}
 In addition to unsupervised learning on the datasets, the Agribot should also request feedback from farmers to improve & validate precision and accuracy. Need to develop feature sets to include this workflow into the feedback engine. 
 [@lowe_decision_2004]
 

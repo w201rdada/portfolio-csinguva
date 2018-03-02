@@ -17,6 +17,7 @@ a) Mobile App Info Extractor: Based on the user's device and applications, the e
 b) Text Mining: Once the data of applications is retrieved, we will run advanced text mining algorithms to rank the privacy policy and data privacy information of all the applications. 
 
 (c) Results & Monitoring: The outcome of this process would be a report of (i) App Privacy score for each mobile application (ii) List of App's retrieving more data than needed (iii) List of App's which are non compliant with the existing privacy laws  
+(d) Industry Specific Results: Develop benchmarks for specific industries like Personal Finance which stores information like SSN.
 
 
 ```{r experimental,echo=F,results='asis',eval=F}

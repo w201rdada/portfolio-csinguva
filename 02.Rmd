@@ -19,7 +19,7 @@ To develop the study, we conducted user interviews with users and FinTech startu
 Users download the apps and use them regularly. They have heterogeneous privacy awareness levels but unanimously like the idea of being aware of data being used by other FinTech apps. 
 #### b) FinTech Startups:{-}
 Product managers and compliance teams want to be aware of the new privacy regulations and want to benchmark their app privacy with other apps on the App store. 
-#### b) c) Regulators:{-}
+#### c) Regulators:{-}
  Regulators don't have an automated process to identify missing privacy policies and inconsistencies of policies across the top 500 applications. They also would like to track when privacy policies change for specific applications and would like to review if they conform to various regulations. 
 
 To further refine our scope, we will limit our study to work with regulators to review our study findings and develop data privacy scoring models. We plan to use the following research methodology:
@@ -47,7 +47,11 @@ Next we plan to provide this to users to download on their smart phone and monit
 
 ## References:
 a) J. Lin, B. Liu, N. Sadeh, and J.I. Hong, Modeling Users’ Mobile App Privacy Preferences: Restoring Usability in a Sea of Permission Settings, 2014 ACMSymposium on Usable Security and Privacy (SOUPS 2014), July 2014.
+
 b) B. Liu, J. Lin, N. Sadeh, Reconciling Mobile App Privacy and Usability on Smartphones: Could User Privacy Profiles Help?, 23rd Interntional Conference on the World Wide Web (WWW 2014).
+
 c) A. Sinha, Y. Li, and L. Bauer, “What you want is not what you get: Predicting sharing policies for text-based content on Facebook,” In Proc. AISec, 2013.
+
 d) Peter Story, Sebastian Zimmeck, Norman Sadeh, "Which Apps have Privacy Policies?", Carnegie Mellon University Technical Report CMU-ISR-18-100, Institute for Software Research, School of Computer Science, Feb 2018
+
 e) Frederick Liu, Shomir Wilson, Peter Story, Sebastian Zimmeck and Norman Sadeh, "Towards Automatic Classification of Privacy Policy Text", Carnegie Mellon University Technical Report CMU‐ISR‐17‐118 and CMU‐LTI‐17‐010, Institute for Software Research and Language Technologies Institute, School of Computer Science, Dec 2017

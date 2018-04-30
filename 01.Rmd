@@ -33,10 +33,18 @@ The effectiveness of Agribot as well as feedback on new questions can be improve
 
 #### g) Agribot Effectiveness: {-}
 In addition to unsupervised learning on the datasets, the Agribot should also request feedback from farmers to improve & validate precision and accuracy. Need to develop feature sets to include this workflow into the feedback engine. 
-[@lowe_decision_2004]
+
 
 ## Outcomes
 The outcome of this solution is to improve scaling the Government initiatives to 10 million farmers by end of 2019 and 25 million farmers by end of 2020. This system would not only help farmers develop best practices across crop selection, crop yield management but also allow them to get the best price for their produce. In addition to improving productivity, this would help Government monitor early warning signs of diseases and areas which need most help by utilizing aggregate information from the Agribot.  We plan to expand the chatbot to process image inputs by farmers to help provide personalized recommendations on crop growth, diseases and review produce quality using image processing techniques by end of 2020.
-[@parker_is_2016]
-[@mendelson_strategic_2007]
+
+## References:
+
+Agricultural Census. 2018. Accessed February 6. http://agcensus.nic.in/.
+
+Lowe, Timothy J., and Paul V. Preckel. 2004. “Decision Technologies for Agribusiness Problems: A Brief Review of Selected Literature and a Call for Research.” Manufacturing & Service Operations Management 6 (3): 201–8. doi:10.1287/msom.1040.0051.
+
+Mendelson, Haim, and Tunay I. Tunca. 2007. “Strategic Spot Trading in Supply Chains.” Management Science 53 (5): 742–59. doi:10.1287/mnsc.1060.0649.
+
+Parker, Chris, Kamalini Ramdas, and Nicos Savva. 2016. “Is IT Enough? Evidence from a Natural Experiment in India’s Agriculture Markets.” Management Science 62 (9): 2481–2503. doi:10.1287/mnsc.2015.2270.
 

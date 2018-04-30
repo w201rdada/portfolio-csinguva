@@ -15,34 +15,35 @@ When users signup for FinTech applications, the application developers request u
 To develop the study, we conducted user interviews with users and FinTech startups to understand the key objectives of each stakeholder. The following section provides an overview of user segments and solutions:
 
 #### Key user segments and needs:{-}
-a) Users: {-}:
+a) Users:
 
 Users download the apps and use them regularly. They have heterogeneous privacy awareness levels but unanimously like the idea of being aware of data being used by other FinTech apps. 
 
-b) FinTech Startups:{-}
+b) FinTech Startups:
 
 Product managers and compliance teams want to be aware of the new privacy regulations and want to benchmark their app privacy with other apps on the App store. 
 
-c) Regulators:{-}
+c) Regulators:
 
 Regulators don't have an automated process to identify missing privacy policies and inconsistencies of policies across the top 500 applications. They also would like to track when privacy policies change for specific applications and would like to review if they conform to various regulations. 
 
+#### Scope & Research Methodology:{-}
 To further refine our scope, we will limit our study to work with regulators to review our study findings and develop data privacy scoring models. We plan to use the following research methodology:
 
-a) Scope of FinTech Apps:{-} 
+a) Scope of FinTech Apps:
 
 We are using data from Crunchbase, Google Play and Apple App Store to extract most funded and most downloaded FinTech Apps. 
 
-b) Privacy policy scraping:{-} 
+b) Privacy policy scraping:
 Based on the list of FinTech Apps, we retrieve the privacy policies from application websites, Google play pages and Apple app store pages. 
 
-c) Privacy policy text mining:{-} 
+c) Privacy policy text mining:
 We will run advanced text mining algorithms to compare to human annotated privacy policy data. rank the privacy policy and data privacy information of all the applications. 
 
-d) Results Validation:{-} 
+d) Results Validation:
 We will provide the results of text mining to regulators to validate our results and provide feedback on our text mining algorithms. 
 
-e) Feedback & Changes:{-} 
+e) Feedback & Changes:
 Once we get detailed feedback from the regulators, we plan to conduct additional user interviews with FinTech startups who are not in compliance. 
 
 

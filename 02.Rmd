@@ -1,29 +1,45 @@
-# Mining the fine print - Mobile Privacy Scoring {#Mobile-Privacy-Scoring}
+# Mining the fine print - Privacy Scoring {#Fintech-Privacy-Scoring}
 
 #### Keywords {-}
 
-Mobile Privacy, Text Mining, Natural Language
+FinTech Privacy, Text Mining, Natural Language
 
-## A beginning.
+## FinTech innovations create new privacy challenges
 
-When users install smartphone applications, the application developers request users to provide access personal information like photos, call history, SMS & video. Some of this information could be relevant for the best performance of the applications, however there are many cases where the app developers request for extremely private information like location and voice calls which are not needed for the applications. Most of these policies are embedded in the fine text of terms and conditions or the mobile platform permission structure. Even well informed users cannot easily understand the implications of the terms and conditions as well as conformance of app developers with the user privacy regulations like COPPA. With large scale data theft examples like Experian & Yahoo as well as regulations from governemnt entities like FTC & CFPB, ensuring user data privacy is extremely important. Due to various operating systems and devices, managing data privacy across devices becomes a challenging task for users. If the users have children who are accessing the same devices, the problem becomes more critical due the existing privacy regulations. The goal of the idea is to build an text mining based tool to identify the applications used by a user across devices and provide him the apps which are either non complying with the regulations or asking for more data than needed to offer the service. 
-
-## A middle.
-
-The solution is divided into three components:
-
-a) Mobile App Info Extractor: Based on the user's device and applications, the extractor will extract information of all the applications running on the device. Once the applications are identified, for each application, we will retrive the information available on Google Play or Appstore and the app's privacy policy available on the websites.
-
-b) Text Mining: Once the data of applications is retrieved, we will run advanced text mining algorithms to rank the privacy policy and data privacy information of all the applications. 
-
-(c) Results & Monitoring: The outcome of this process would be a report of (i) App Privacy score for each mobile application (ii) List of App's retrieving more data than needed (iii) List of App's which are non compliant with the existing privacy laws  
-(d) Industry Specific Results: Develop benchmarks for specific industries like Personal Finance which stores information like SSN.
+FinTech companies leverage new technology to create new and better financial services for both consumers and businesses. These emerging technologies are disrupting investment management, insurance and lending industries creating better user experiences reducing friction. FinTech companies use machine learning and user information to personalize traditional financial services. 
+When users signup for FinTech applications, the application developers request users to provide access personal information like social security information, banking transactions, savings, social media handles and other mobile data. There are many cases where the applications monitor extremely private information like location and voice call information which are not needed to personalize the applications. Even though users agree to terms and conditions of using the applciations, the privacy policies are embedded in the fine text of terms and conditions. The privacy policy conformance to user privacy regulations like COPPA, GDPR is difficult to comprehend. Our project intends to develop an app which can be installed on smartphone and will monitor the data access and usage by various FinTech applications. We use a staggered approach to develop our project and the first step is a detailed study of privacy policies of top 500 FinTech applications on App Store & Google Play. 
 
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+## Privacy awareness levels and regulation compliance is all over the place
 
-## An end.
+To develop the study, we conducted user interviews with users and FinTech startups to understand the key objectives of each stakeholder. The following section provides an overview of user segments and solutions:
 
-This study intents to extend the existing literature on automated privacy analysis and provides users greater control to manage their privacy choices while downloading mobile apps. We also intend to extend the analysis to Amazon and windows applications in the future. 
+Key user segments and needs:
+a) Users: Users download the apps and use them regularly. They have heterogeneous privacy awareness levels but unanimously like the idea of being aware of data being used by other FinTech apps. 
+b) FinTech Startups: Product managers and compliance teams want to be aware of the new privacy regulations and want to benchmark their app privacy with other apps on the App store. 
+c) Regulators: Regulators don't have an automated process to identify missing privacy policies and inconsistencies of policies across the top 500 applications. They also would like to track when privacy policies change for specific applications and would like to review if they conform to various regulations. 
+
+To further refine our scope, we will limit our study to work with regulators to review our study findings and develop data privacy scoring models. We plan to use the following research methodology:
+
+a) Scope of FinTech Apps: We are using data from Crunchbase, Google Play and Apple App Store to extract most funded and most downloaded FinTech Apps. 
+b) Privacy policy scraping: Based on the list of FinTech Apps, we retrieve the privacy policies from application websites, Google play pages and Apple app store pages. 
+c) Privacy policy text mining: We will run advanced text mining algorithms to compare to human annotated privacy policy data. rank the privacy policy and data privacy information of all the applications. 
+d) Results Validation: We will provide the results of text mining to regulators to validate our results and provide feedback on our text mining algorithms. 
+e) Feedback & Changes: Once we get detailed feedback from the regulators, we plan to conduct additional user interviews with FinTech startups who are not in compliance. 
+
+
+## Privacy is not a "Feature":
+
+After completing the study, we plan to move forward to build our application.  We will offer initial solution to regulators to monitor all the FinTech apps registered in United States. This would allow regulators to coach FinTech startups on improving their compliance to privacy regulations as well as develop new regulations to support the innovations. 
+
+We also want to develop privacy scoring models to assist FinTech startups to develop better privacy aware products. This will actively allow startups to focus on products which are user privacy compliant reducing possible legal and reputational risks. 
+
+Next we plan to provide this to users to download on their smart phone and monitor data privacy concerns for their FinTech applications and over time allow them to track all mobile applications.  We also intend to extend the analysis to Amazon and windows applications in the future. 
+
+
+## References:
+a) J. Lin, B. Liu, N. Sadeh, and J.I. Hong, Modeling Users’ Mobile App Privacy Preferences: Restoring Usability in a Sea of Permission Settings, 2014 ACMSymposium on Usable Security and Privacy (SOUPS 2014), July 2014.
+b) B. Liu, J. Lin, N. Sadeh, Reconciling Mobile App Privacy and Usability on Smartphones: Could User Privacy Profiles Help?, 23rd Interntional Conference on the World Wide Web (WWW 2014).
+c) A. Sinha, Y. Li, and L. Bauer, “What you want is not what you get: Predicting sharing policies for text-based content on Facebook,” In Proc. AISec, 2013.
+d) Peter Story, Sebastian Zimmeck, Norman Sadeh, "Which Apps have Privacy Policies?", Carnegie Mellon University Technical Report CMU-ISR-18-100, Institute for Software Research, School of Computer Science, Feb 2018
+e) Frederick Liu, Shomir Wilson, Peter Story, Sebastian Zimmeck and Norman Sadeh, "Towards Automatic Classification of Privacy Policy Text", Carnegie Mellon University Technical Report CMU‐ISR‐17‐118 and CMU‐LTI‐17‐010, Institute for Software Research and Language Technologies Institute, School of Computer Science, Dec 2017
